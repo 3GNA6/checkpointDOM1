@@ -1,0 +1,60 @@
+style.css
+
+.main{
+    border: 2px solid black;
+  height: 500px;
+}
+.articles{
+    display: flex;
+  justify-content: space-around;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+}
+.btn i:hover{
+    cursor: pointer;
+}
+
+.del{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+}
+.del i:hover{
+    cursor: pointer;
+}
+
+.icon1{
+    display: flex;
+    margin-top: 15px;
+}
+.icon2{
+    display: flex;
+    margin-top: 15px;
+}
+.icon3{
+    display: flex;
+    margin-top: 15px;
+}
+.faSolid{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: red;
+}
+.liked {
+    color: red; /* Change la couleur de l'icône lorsqu'elle est ajoutée aux favoris */
+}
